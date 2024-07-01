@@ -12,7 +12,7 @@ This project is a Streamlit-based application that helps users find the most sim
 
 ## Demo
 
-[Insert a link to a demo video showcasing the application]
+![Demo Video](demo.mp4)
 
 ## Installation
 
