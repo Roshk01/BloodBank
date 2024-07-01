@@ -22,13 +22,9 @@ This project is a Streamlit-based application that helps users find the most sim
    ```
 2. Navigate to the project directory:
    ```
-   cd blood-bank-recommendation
+   cd BloodBank
    ```
-3. Install the required dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-4. Run the Streamlit application:
+3. Run the Streamlit application:
    ```
    streamlit run app.py
    ```
@@ -37,7 +33,7 @@ This project is a Streamlit-based application that helps users find the most sim
 
 1. Select the state, district, and city from the sidebar options.
 2. Enter the pincode in the input field.
-3. Click the "Find Blood Bank" button to see the recommended blood banks.
+3. Click the "Find Blood Bank" button for recommended blood banks.
 4. The recommended blood banks will be displayed in a stream-like format, showing their details.
 
 ## Project Structure
@@ -52,11 +48,11 @@ blood-bank-recommendation/
 └── README.md
 ```
 
-- `app.py`: The main Streamlit application file that handles the user interface and calls the recommendation function.
-- `blood_bank_recommender.py`: The module that contains the `nearest_bank_recommendation()` function, which performs the blood bank recommendation logic.
+- `app.py`: The main Streamlit application file handles the user interface and calls the recommendation function.
+- `blood_bank_recommender.py`: The module containing the `nearest_bank_recommendation()` function performs the blood bank recommendation logic.
 - `bank.pkl`: The pickled blood bank data used by the application.
 - `similarity.pkl`: The pickled similarity data used by the recommendation function.
-- `bloodbank.csv`: The file contain the dataset of blood bank across in India.
+- `bloodbank.csv`: The file contains the dataset of blood banks across India.
 - `README.md`: The project's documentation, including the demo video link and installation/usage instructions.
 
 ## Contributing
