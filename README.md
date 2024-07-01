@@ -18,7 +18,7 @@ This project is a Streamlit-based application that helps users find the most sim
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/blood-bank-recommendation.git
+   git clone https://github.com/your-username/BloodBank.git
    ```
 2. Navigate to the project directory:
    ```
